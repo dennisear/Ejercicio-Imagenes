@@ -1,33 +1,22 @@
 import './App.css';
 import Todo from './componentes/Todo'
-import Cuerpo from './componentes/Cuerpo';
-import Footer from './componentes/Footer';
-import Title from './componentes/Title';
 import GlobalStyles from './globalStyles';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Home from "./pages/Home/Home.jsx"
+import Contact from "./pages/Contact/Contact"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <GlobalStyles/>
-      <Title/>
-      <Todo/>
-      <Cuerpo/>
-      <Footer/>
+    <Router>
+    <GlobalStyles/>
+    <Switch>
+    <Route path="/"exact component={Home}/>
+    <Route path="/contact"exact component={Contact}/>
+    </Switch>
+    </Router>
     </div>
-  );
+  )
 }
 
 export default App;
