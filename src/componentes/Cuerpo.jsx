@@ -6,7 +6,7 @@ const Cuerpo = () => {
 	return ( 
 		<div className="Container_Cuerpo">
 		<div className="ContainerText">
-		<h1>Hola este es el componente del Cuerpo</h1>
+		<h1>Béisbol</h1>
 		<p>El béisbol, también llamado baseball o pelota base,​ es un deporte de equipo jugado entre dos equipos de nueve jugadores cada uno.El equipo que anote más carreras al cabo de los nueve (9) episodios, llamados innings (o entradas) que dura el encuentro, es el que resulta ganador.</p>
 		</div>
 		<div className="ContainerImage">
