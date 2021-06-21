@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Todo from './componentes/Todo'
+import Cuerpo from './componentes/Cuerpo';
+import Footer from './componentes/Footer';
+import Title from './componentes/Title';
+import GlobalStyles from './globalStyles';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -18,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <GlobalStyles/>
+      <Title/>
+      <Todo/>
+      <Cuerpo/>
+      <Footer/>
     </div>
   );
 }
