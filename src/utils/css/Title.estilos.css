@@ -8,3 +8,20 @@
 	font-size: 35px;
 	color: blueviolet;
 }
+.contact{
+	background-color: blueviolet;
+	margin-top: 40px;
+	margin-right: 15px;
+}
+.home{
+	background-color: blueviolet;
+	margin-top: 40px;
+}
+.Container_botones{
+	margin-left: 28%;
+}
+.Container_botones h1{
+	font-weight: bold;
+	color: white;
+	font-size: 13px;
+}

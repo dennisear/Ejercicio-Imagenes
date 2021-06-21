@@ -6,12 +6,14 @@ const Title = () => {
 	return ( 
 		<div className="Container_title">
 		<h1 id="principalTitle">DEPORTES</h1>
+		<div className="Container_botones">
 		<Link to="/contact">
-		<button> Me voy para contact</button>
+		<button className="contact"><h1>Basquetbol</h1></button>
 		</Link>
 		<Link to="/">
-		<button> Me voy para Home</button>
+		<button className="home"><h1> Vuelvo al inicio</h1></button>
 		</Link>
+		</div>
 		</div>
 		) 
 } 
