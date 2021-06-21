@@ -1,0 +1,10 @@
+.Container_title{
+	display: flex;
+	width: 100%;
+	height: 15vh;
+	justify-content: center;
+}
+#principalTitle{
+	font-size: 35px;
+	color: blueviolet;
+}
